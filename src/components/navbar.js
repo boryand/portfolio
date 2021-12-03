@@ -1,14 +1,24 @@
-import react from 'react'
+import react from "react";
 
-const Navbar = ()=> {
+const Navbar = () => {
+  return (
+    <nav>
+      <div className="nav-wrapper">
+       
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="badges.html">Projects</a>
+          </li>
+          <li>
+            <a href="collapsible.html">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
 
-return (
-    <div>
-        <p> HEL </p>
-        </div>
-)
-
-
-}
-
-export default Navbar ;
+export default Navbar;
