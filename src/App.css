@@ -1,31 +1,64 @@
 .wrapper {
   margin: 0 auto;
-  /* display: flex;
-  justify-content: center;
-  width:100%;
-  height: auto ; */
+}
+/* Landing Page styling */
+.nav-wrapper {
+  background-color: #7d5a5a;
 }
 
-/* NAVBAR STYLING */
-.navbar {
-}
-.navbar1 {
-  margin: 0 auto;
+.container1 {
+  background-color: #faf2f2;
+  height: 700px;
   display: flex;
-  /* justify-content: center; */
-  flex-direction: row;
-  justify-content: space-around;
-  background-image: url("https://img.wattpad.com/d6d5b2d68cb3c8d9f8d32f9416e9811333d8fded/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f7a4b546e6c396a2d5174434870413d3d2d313035323031383539362e313637336265396336333039616462633439373238333835333532352e676966");
- background-position: 50%;
- background-repeat: no-repeat;
-  list-style-type: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.navbar2 {
-  margin-top: 2%;
+.me {
+  font-family: "Petemoss", cursive;
+  font-size: 8rem;
 }
 
-.neonShadow {
-  height: 45px;
-  width: 80px;
+.me {
+  text-shadow: 0 0 3vw #f40a35;
+}
+
+.btn_1 {
+  background-color: brown;
+}
+
+/* About Me page  */
+
+.container_1 {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+
+
+.img1 {
+  height: 250px;
+  width: auto;
+  margin-top: auto;
+ 
+}
+
+.p1,
+.p2,
+.p3 {
+  width: 400px;
+  margin-top: 20px;
+  margin: 20px;
+  background-color: #F3E1E1;
+}
+
+
+.info {
+  font-family: "Petemoss", cursive;
+  
+  font-size: 5rem;
+  
 }
