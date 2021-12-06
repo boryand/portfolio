@@ -13,7 +13,7 @@ const Navbar = () => {
             <a href="badges.html">Projects</a>
           </li>
           <li>
-            <a href="collapsible.html">Contacts</a>
+            <a href="/contacts">Contacts</a>
           </li>
         </ul>
       </div>
