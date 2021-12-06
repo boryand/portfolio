@@ -3,6 +3,7 @@ import { Switch, Route, Link, NavLink } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Landing from "./components/landing";
 import AboutMe from "./components/about_me";
+import Contacts from "./components/contacts";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route exact path="/aboutMe">
           <AboutMe />
+        </Route>
+        <Route exact path="/contacts">
+          <Contacts />
         </Route>
       </Switch>
     </div>

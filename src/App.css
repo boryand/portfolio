@@ -14,9 +14,14 @@
   align-items: center;
   justify-content: center;
 }
+.img2 {
+  height: 250px;
+  width: auto;
+}
 
 .me {
   font-family: "Petemoss", cursive;
+  line-height: 50px;
   font-size: 8rem;
 }
 
@@ -32,33 +37,61 @@
 
 .container_1 {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-
+  margin: 0 auto;
   align-items: center;
+  background-color: #f3e1e1;
 }
-
-
 
 .img1 {
   height: 250px;
-  width: auto;
+  width: 250px;
   margin-top: auto;
- 
+  align-self: center;
 }
 
 .p1,
 .p2,
 .p3 {
-  width: 400px;
-  margin-top: 20px;
+  width: 800px;
+  height: auto;
   margin: 20px;
-  background-color: #F3E1E1;
-}
 
+  display: flex;
+  flex-direction: column;
+}
 
 .info {
   font-family: "Petemoss", cursive;
-  
+  align-self: center;
+
   font-size: 5rem;
-  
+}
+p {
+  line-height: 25px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.5rem;
+}
+
+.stack {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* Contacts Page */
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf2f2;
+  height: 650px;
+}
+
+.for {
+  width: 900px;
+  font-family: "Petemoss", cursive;
+  font-size: 5rem;
 }
