@@ -5,7 +5,7 @@ const Projects = ()=> {
     return (
         <div className="container5">
             <img src={comming} />
-            <h1> Comming soon</h1>
+            <h1> Comming soon !</h1>
         </div>
     )
 }
