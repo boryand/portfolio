@@ -4,6 +4,8 @@ import Navbar from "./components/navbar";
 import Landing from "./components/landing";
 import AboutMe from "./components/about_me";
 import Contacts from "./components/contacts";
+import Footer from "./components/footer";
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
           <Contacts />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }
