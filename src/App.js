@@ -5,6 +5,7 @@ import Landing from "./components/landing";
 import AboutMe from "./components/about_me";
 import Contacts from "./components/contacts";
 import Footer from "./components/footer";
+import Projects from "./components/projects";
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route exact path="/contacts">
           <Contacts />
+        </Route>
+        <Route exact path="/projects">
+          <Projects />
         </Route>
       </Switch>
       <Footer />
