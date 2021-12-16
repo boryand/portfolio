@@ -66,8 +66,10 @@ const AboutMe = () => {
         </div>
        
 <div className="info_card2"><h5> Backend  </h5>
-        <p>Git</p>
-        <p>Github</p>
+     
+        <p>Node.js</p>
+        <p>Express</p>
+     
  
     </div>
     <div className="info_card3"><h5> Databases </h5>
@@ -76,9 +78,9 @@ const AboutMe = () => {
  
     </div>
     <div className="info_card5"><h5> Version control systems </h5>
-        <p>Node.js</p>
-        <p>Express</p>
-        <p></p>
+    <p>Git</p>
+        <p>Github</p>
+     
     </div>
         
     <div className="info_card4"><h5> Another</h5>
