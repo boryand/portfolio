@@ -8,7 +8,7 @@ const Projects = ()=> {
         <div className="container5">
          
 
-
+   <h1> Click on a card to see the project</h1>
 
 
 

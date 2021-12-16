@@ -464,6 +464,8 @@ a {
 .footer_container {
   background-color: #ffd700;
   height: 100px;
+  display: flex;
+ justify-content: flex-end;
 }
 
 /* PROJECTS PAGE */
@@ -475,7 +477,10 @@ a {
   text-align: center;
   height: 650px;
 }
-
+.container5 h1 {
+  font-family: "Petemoss", cursive;
+  font-size: 8rem;
+}
 .card1 {
   width: 270px;
   height: 350px;
