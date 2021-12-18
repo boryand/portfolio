@@ -1,5 +1,5 @@
 import comming from "../pictures/comming.gif"
-import pika from "../pictures/pika.gif"
+import pika from "../pictures/pika.png"
 
 
 const Projects = ()=> {
