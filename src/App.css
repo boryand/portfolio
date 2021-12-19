@@ -123,26 +123,108 @@ left : 50px;
   }
 }
 
-@media only screen and (min-width:481px) and (max-width:770px) {
+@media only screen and (min-width:481px) and (max-width:569px) {
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+
+    background-color: #eeeeee;
+  }
+  .me {
+    margin-left: 25%;
+  }
   .img4 {
     height:150px;
     width: 300px;
-  position: relative;
- left: -43px;
-  top: 260px;
+   position: relative;
+   top: 1px;
+    
+  
+ 
 
   }
+ .con2 {
+   display: flex;
+   justify-content: center;
+ 
+   height:150px;
+   width: 300px;
+ }
+
+  .img3{
+    display:none
+  }
+  
 }
 
-@media only screen and (min-width: 771px) and (max-width: 1030px) {
+@media only screen and (min-width:569px) and (max-width: 769px) {
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+
+    background-color: #eeeeee;
+  }
+  .me {
+    margin-left: 5%;
+height: 150px;
+ position: relative;
+ top: 5%
+  }
+  .img4 {
+    height:150px;
+    width: 300px;
+   position: relative;
+   top: -100px;
+    
+  
+ 
+
+  }
+ .con2 {
+   display: flex;
+   justify-content: center;
+ 
+   height:150px;
+   width: 300px;
+ }
+
+  .img3{
+    height: 250px;
+position: relative;
+left: 280px;
+top: -120px;
+  }
+  
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1030px) {
   .img4 {
     height:250px;
     width: 480px;
   position: relative;
- left: -43px;
+ left: -73px;
   top: 260px;
 
   }
+  .me {
+    margin-left: 15%;
+height: 150px;
+ position: relative;
+ 
+  }
+  .img3{
+    height: 250px;
+    margin-top: 3%;
+/* position: relative;
+left: 280px;
+top: -120px; */
+  }
+  
 }
 
 /* About Me page  */
@@ -417,20 +499,39 @@ left : 50px;
     height: 690px;
   }
 
-  @media only screen and (max-width: 320px) {
-    .for {
-      width: 80%;
-      text-align: center;
-    }
+  @media only screen and (max-width: 321px) {
+   .container3 {
+     display: flex;
+   }
+   .container4{
+     height: 200px;
+   }
 
-    .container3 {
-      height: 800px;
-    }
+   .for1 {
+     display: none;
+   }
+
+   .for {
+     align-self: center;
+    margin-top: 5px;;
+   }
   }
 
   @media only screen and (min-width: 321px) and (max-width: 380px) {
+    .container3 {
+      display: flex;
+    }
+    .container4{
+      height: 200px;
+    }
+ 
+    .for1 {
+      display: none;
+    }
+ 
     .for {
-      width: 80%;
+      align-self: center;
+     margin-top: 5px;;
     }
   }
 

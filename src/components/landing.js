@@ -13,6 +13,7 @@ const Landing = () => {
           <h3 className="me"> Boryana Dimitrova </h3>
           <h1 className="me"> Front-end Developer </h1>
           <img className="img3 " src={programming} />
+          
         </div>
 
         <div className="con2">
