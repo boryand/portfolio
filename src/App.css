@@ -1075,7 +1075,7 @@ card {
   width: 100%;
   color:#022c43;
   background: #eeeeee;
-  animation: infinite typing 6s steps(18) forwards,
+  animation: infinite typing 6s  forwards,
     caret 1s infinite;
 }
 
