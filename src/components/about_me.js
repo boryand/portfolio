@@ -23,21 +23,7 @@ const AboutMe = () => {
   
 
      
-      {/* <div className="p3">
-        <img
-          className="img2"
-          src="https://doodleipsum.com/700/outline?i=b9394e5dbf605f5eef5ede6fe707ad8c"
-        />
-        <h3 className="info1"> My Goals: </h3>
-        <p className="p33">
-          My goals are to grow in a company and learn new things every day. I
-          really see my future in knowing more JS frameworks and being able to
-          run more complicated applications. I know that I'm not the most
-          experienced developer, but I enjoy researching, learning, and
-          gathering information so I think that really makes me a great addition
-          to the IT job market.
-        </p>
-      </div> */}
+    
       <h3 className="info3"> My Tech Skills: </h3>
 
       <div className="p2">

@@ -7,6 +7,7 @@ import Contacts from "./components/contacts";
 import Footer from "./components/footer";
 import Projects from "./components/projects";
 import Side from "./components/sidenav";
+import Resume from "./components/resume";
 
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route exact path="/projects">
           <Projects />
+        </Route>
+        <Route exact path="/resume">
+          <Resume />
         </Route>
       </Switch>
       <Footer />
