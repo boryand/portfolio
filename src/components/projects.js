@@ -12,7 +12,7 @@ const Projects = () => {
     <div className="container5">
       {/* <h1> Click on a card to see the project</h1> */}
 
-      <div class="card">
+      {/* <div class="card">
         <div class="image">
           <img src={pika} />
         </div>
@@ -31,7 +31,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div class="card">
         <div class="image">
