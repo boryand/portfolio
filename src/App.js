@@ -6,21 +6,19 @@ import AboutMe from "./components/about_me";
 import Contacts from "./components/contacts";
 import Footer from "./components/footer";
 import Projects from "./components/projects";
-import Side from "./components/sidenav";
-import Resume from "./components/resume";
 
+import Resume from "./components/resume";
 
 function App() {
   return (
     <div className="wrapper">
       <Navbar />
-      <Side />
-    
+
       <Switch>
         <Route exact path="/">
           <Landing />
         </Route>
-        
+
         <Route exact path="/aboutMe">
           <AboutMe />
         </Route>

@@ -1,14 +1,20 @@
-import me from "../pictures/me.png";
+import beije from "../pictures/beije.jpg"
+import gui from "../pictures/gui.gif"
+import jui from "../pictures/jui.gif"
 
 const Landing = () => {
   return (
     <>
       <div className="container1">
-        <h5 id="me">
-          Boryana Dimitrova <br /> Full Stack Developer
-        </h5>
+       
+        <img alt="" className="gui" src={gui} />
+       
+        <img alt="" className="jui" src={jui} />
+       
 
-        <img className="img3 " alt="picture_of_me" src={me} />
+    
+
+      
       </div>
     </>
   );
