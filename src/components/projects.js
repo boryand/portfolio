@@ -1,79 +1,25 @@
 import comming from "../pictures/comming.gif";
 import pika from "../pictures/pika.png";
 import logo from "../pictures/logo.png";
+import logo1 from "../pictures/logo1.gif";
 import rina from "../pictures/rina.jpg";
-import { LOADING } from "@blueprintjs/core/lib/esm/common/classes";
+
 
 const Projects = () => {
   const url = "https://pokefight123.herokuapp.com/";
   const url2 = "https://max-lounge.herokuapp.com/";
   const url3 = "https://rina-beauty.herokuapp.com/";
+  const url4 =
+    "https://www.linkedin.com/posts/boryana-dimitrova94_restaurant-menu-activity-6933023908413489152-_Gj-?utm_source=linkedin_share&utm_medium=member_desktop_web";
   return (
     <div className="container5">
-      {/* <h1> Click on a card to see the project</h1> */}
+      
+     <a href={url2}> <img src={logo} alt="" className="project_img" /></a> 
+<a href={url3}><img src={rina} alt="" className="project_img"/></a>
+<a href={url4}><img src={logo1} alt="" className="project_img"/></a>
+    
+      
 
-      {/* <div class="card">
-        <div class="image">
-          <img src={pika} />
-        </div>
-        <div class="details">
-          <div class="center">
-            <h1>
-              Pokefight
-              <br />
-            </h1>
-            <p>
-              What I used: <br />
-              🌟 HTML/CSS <br /> 🌟 Javascript <br /> 🌟React
-            </p>
-            <a className="project_link" href={url}>
-              <span>Check it out</span>
-            </a>
-          </div>
-        </div>
-      </div> */}
-
-      <div class="card">
-        <div class="image">
-          <img src={logo} />
-        </div>
-        <div class="details">
-          <div class="center">
-            <h1>
-              Max Lounge
-              <br />
-            </h1>
-            <p>
-              What I used: <br />
-              🌟 HTML/Sass <br /> 🌟 Javascript <br /> 🌟React
-            </p>
-            <a className="project_link" href={url2}>
-              <span>Check it out</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="image">
-          <img src={rina} alt="" />
-        </div>
-        <div class="details">
-          <div class="center">
-            <h1>
-              Rina Beauty
-              <br />
-            </h1>
-            <p>
-              What I used: <br />
-              🌟 HTML/Sass <br /> 🌟 Javascript <br /> 🌟React
-            </p>
-            <a className="project_link" href={url3}>
-              <span>Check it out</span>
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
