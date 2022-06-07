@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+.wrapper_contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 650px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #f4f4f4;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  font-size: 16px;
+  background-color: #f4f4f4;
+  margin-top: 5%;
+}
+
+input {
+  width: 100%;
+  height: 35px;
+  padding: 7px;
+  border-radius: 5px;
+  color: #373737;
+}
+
+input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: #373737;
+  color: #f4f4f4;
+  border: none;
+  width: 20%;
+}
+
+label {
+  font-size: 1.3rem;
+  color: #373737;
+  margin-bottom: 5%;
+}
+
+.contact_image1 {
+  width: 50%;
+}
+
+@media only screen and (max-width: 476px) {
+  .wrapper_contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact_image1 {
+    width: 100%;
+  }
+  form {
+    width: 80%;
+  }
+  input[type="submit"] {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media only screen and (min-width: 476px) and (max-width: 676px) {
+  .wrapper_contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact_image1 {
+    width: 100%;
+  }
+  form {
+    width: 80%;
+  }
+  input[type="submit"] {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .contact_image1 {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 676px) and (max-width: 776px) {
+  .wrapper_contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact_image1 {
+    width: 100%;
+  }
+  form {
+    width: 80%;
+  }
+  input[type="submit"] {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .contact_image1 {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 776px) and (max-width: 876px) {
+  .wrapper_contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 450px;
+  }
+  input[type="submit"] {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media only screen and (min-width: 876px) and (max-width: 1076px) {
+  .wrapper_contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 450px;
+  }
+  input[type="submit"] {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+/*# sourceMappingURL=contacts.css.map */

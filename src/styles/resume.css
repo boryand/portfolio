@@ -1,0 +1,27 @@
+.resume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: 4LI;
+}
+
+.my_cv {
+  width: 60%;
+  margin-top: 5%;
+  box-shadow: 10px 10px 5px #ffc1de;
+  -moz-box-shadow: 10px 10px 5px #ffc1de;
+  -webkit-box-shadow: 10px 10px 5px #ffc1de;
+  -khtml-box-shadow: 10px 10px 5px #ffc1de;
+  margin-bottom: 3%;
+}
+/*# sourceMappingURL=resume.css.map */

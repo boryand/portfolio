@@ -1,38 +1,46 @@
 import { Switch, Route, Link, NavLink } from "react-router-dom";
 
-import email from "../pictures/email.png"
-import github from "../pictures/github.png"
-import linkedin from "../pictures/linkedin.png"
-import mail from "../pictures/email.png"
-import g1 from "../pictures/g1.gif"
-import g2 from "../pictures/g2.gif"
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-const Contacts = ()=> {
+import contact from "../pictures/contact.png";
 
-return (
-    <div className="wrapper_contacts"> 
-     <p className="abc1"> Do you want to work with me? Or just ask me a question? </p> 
-    <p className="abc1">You can use these:  </p>  
-        <div class="container3">
-   
-    <img alt="" className="img_contacts" src={g1}/>
- 
-        <div className="container4">
-  <h3> <a className="link1"href="mailto:boryana.dimitrova789@gmail.com">   <img className="email"src={email}/> My Email </a> </h3>   
-  
-   <h3> <a className="link1" href="https://github.com/boryand">   <img className="github"src={github}/>My Github </a> </h3>
-   <h3> <a className="link1" href="https://www.linkedin.com/in/boryana-dimitrova-2a9617220/">   <img className="email"src={linkedin}/> My LinkedIn </a> </h3>
+const Contacts = () => {
+  const form = useRef();
+  const SERVICE_ID = "service_tcpxycw";
+  const TEMPLATE_ID = "template_e2ozf23";
+  const USER_ID = "EMqzniS5UXrXpGDv-";
 
-   </div>
-   <img alt="" className="img_contacts" src={g1}/>
-   
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-</div></div>
- 
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID).then(
+      (result) => {
+        console.log(result.text);
+        alert("Message successfully sent");
+        e.target.reset();
+      },
+      (error) => {
+        console.log(error.text);
+      },
+      e.target.reset
+    );
+  };
 
+  return (
+    <div className="wrapper_contacts">
+      <img src={contact} className="contact_image1" />
+      <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+      </form>
+    </div>
+  );
+};
 
-)
-
-}
-
-export default Contacts
+export default Contacts;
