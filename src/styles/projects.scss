@@ -1,0 +1,114 @@
+.container5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $light-color;
+}
+
+.container6 {
+  margin-top: 6%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: $light-color;
+}
+.project_img {
+  height: 450px;
+  margin-left: 50px;
+}
+
+@mixin mobile1 {
+  .container6 {
+    flex-direction: column;
+  }
+  .project_img {
+    width: 320px;
+    height: 400px;
+    margin-left: 0;
+    margin-top: 7%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  @include mobile1();
+}
+
+@media only screen and (min-width: 376px) and (max-width: 426px) {
+  @include mobile1();
+  .project_img {
+    width: 370px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 526px) {
+  @include mobile1();
+  .project_img {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 526px) and (max-width: 626px) {
+  @include mobile1();
+  .project_img {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 626px) and (max-width: 726px) {
+  @include mobile1();
+  .project_img {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 726px) and (max-width: 826px) {
+  .container6 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .project_img {
+    width: 320px;
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 826px) and (max-width: 926px) {
+  .container6 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .project_img {
+    width: 400px;
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 926px) and (max-width: 1026px) {
+  .container6 {
+    flex-direction: row;
+    flex-wrap: wrap;
+justify-content: center;
+  }
+
+  .project_img {
+    width: 290px;
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1126px) {
+  .container6 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .project_img {
+    width: 300px;
+    margin-top: 5%;
+  }
+}

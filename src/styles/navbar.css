@@ -1,0 +1,32 @@
+.navlink {
+  color: #ffe4ea;
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+  text-shadow: 1px 2px hotpink;
+}
+
+.navlink:hover {
+  color: #ff007b;
+}
+
+.nav-wrapper {
+  background-color: #00cccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 80px;
+}
+/*# sourceMappingURL=navbar.css.map */

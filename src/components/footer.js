@@ -3,7 +3,7 @@ const Footer = ()=> {
         <div className="footer_container">
          
         <p> Build with l❤️ve by Boryana Dimitrova</p> 
-        <p> 2021</p> 
+        <p> 2022</p> 
 
             </div>
      )

@@ -1,4 +1,5 @@
-import "./App.css";
+import "../src/styles/style.css";
+import "semantic-ui-css/semantic.min.css";
 import { Switch, Route, Link, NavLink } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Landing from "./components/landing";
@@ -19,9 +20,7 @@ function App() {
           <Landing />
         </Route>
 
-        <Route exact path="/aboutMe">
-          <AboutMe />
-        </Route>
+       
         <Route exact path="/contacts">
           <Contacts />
         </Route>
