@@ -5,8 +5,8 @@ import logo1 from "../pictures/logo1.gif";
 import rina from "../pictures/rina.jpg";
 
 const Projects = () => {
-  const url2 = "https://max-lounge.herokuapp.com/";
-  const url3 = "https://rina-beauty.herokuapp.com/";
+  const url2 = "https://res-design.d2tpgv3psqdgl.amplifyapp.com/";
+  const url3 = "https://main.d2jd8gki5jhbu3.amplifyapp.com/";
   const url4 =
     "https://www.linkedin.com/posts/boryana-dimitrova94_restaurant-menu-activity-6933023908413489152-_Gj-?utm_source=linkedin_share&utm_medium=member_desktop_web";
   const url5 = "https://www.zu-bar-and-dinner.com/";
