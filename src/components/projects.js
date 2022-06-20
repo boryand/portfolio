@@ -3,6 +3,7 @@ import pika from "../pictures/pika.png";
 import logo from "../pictures/logo.png";
 import logo1 from "../pictures/logo1.gif";
 import rina from "../pictures/rina.jpg";
+import Slide from "react-reveal/Slide";
 
 const Projects = () => {
   const url2 = "https://res-design.d2tpgv3psqdgl.amplifyapp.com/";
@@ -13,16 +14,18 @@ const Projects = () => {
   return (
     <div className="container5">
       <div className="container6">
-        <a href={url2} target="_blank">
-          {" "}
-          <img src={logo} alt="" className="project_img" />
-        </a>
-        <a href={url3} target="_blank">
-          <img src={rina} alt="" className="project_img" />
-        </a>
-        <a href={url5} target="_blank">
-          <img src={logo1} alt="" className="project_img" />
-        </a>
+        <Slide top cascade>
+          <a href={url2} target="_blank">
+            {" "}
+            <img src={logo} alt="" className="project_img" />
+          </a>
+          <a href={url3} target="_blank">
+            <img src={rina} alt="" className="project_img" />
+          </a>
+          <a href={url5} target="_blank">
+            <img src={logo1} alt="" className="project_img" />
+          </a>
+        </Slide>
       </div>
       <div className="container6"></div>
     </div>

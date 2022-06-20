@@ -1,17 +1,19 @@
 .navlink {
-  color: #ffe4ea;
-  font-size: 1.2rem;
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  font-size: 1.5rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 10px;
-  text-shadow: 1px 2px hotpink;
+  margin-left: 5%;
 }
 
 .navlink:hover {
-  color: #ff007b;
+  color: black;
+  background-color: greenyellow;
 }
 
 .nav-wrapper {
-  background-color: #00cccc;
+  background-color: greenyellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,5 +30,11 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 80px;
+}
+
+@media only screen and (max-width: 476px) {
+  .navlink {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=navbar.css.map */

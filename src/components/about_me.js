@@ -1,60 +1,60 @@
+import Wobble from "react-reveal/Wobble";
+
 const AboutMe = () => {
   return (
     <div className=" container_1">
-
-
-<h3 className="info"> Who am I ? </h3>
-      <div className="p1">
-       
-        
-        <p className="p11">
-          My name is Boryana Dimitrova and I live in Germany. Four years ago (2018)
-          I decided to learn how to code and my life has changed. After I felt in love with coding,
-          I signed up for a bootcamp and learned a lot.
-          Since then I have 5 finished projects and my main focus these days is building accessible and
-          beautifully designed web applications.
+      <section className="aboutme_1">
+        <Wobble>
+          <h1>Who am I ?</h1>
+        </Wobble>
+        <p>
+          Hi, I am <span title="name">Bobby</span> and I am Web Developer with a
+          strong passion for web design.I felt in love with coding back in 2018
+          and after that my mission is to design and develop a website that you
+          and your audience will love.
         </p>
-      </div>
+      </section>
+      <section className="aboutme_1">
+        <Wobble>
+          <h1>My skills</h1>
+        </Wobble>
+      </section>
 
-      <h3 className="info3"> My Tech Skills: </h3>
-
-      <div className="p2">
-        
-
-        <div className="info_card">
-          <h5> FrontEnd </h5>
-
-          <p>HTML5</p>
+      <section className="aboutme_2">
+        <section className="sub_1">
+          {" "}
+          <h3>Technical Skills</h3>
+          <p> HTML5</p>
           <p>CSS3</p>
-          <p>Sass</p>
           <p>Javascript</p>
-
-          <p>React.js</p>
-        </div>
-
-        <div className="info_card2">
-          <h5> Backend </h5>
-
-          <p>Node.js</p>
+          <p>Sass</p>
+          <p>React</p>
+          <p>Node.Js</p>
           <p>Express</p>
-        </div>
-        <div className="info_card3">
-          <h5> Databases </h5>
           <p>SQL</p>
           <p>MongoDB</p>
-        </div>
-       
-
-        <div className="info_card4">
-          <h5> Another</h5>
-          <p>RESTful Api's</p>
-          <p>DEVOPS(Hoisting, Deployment, Monitoring)</p>
-
-          <p>Software Testing(TTD)</p>
-          <p>Agile tools and methodologies</p>
           <p>Git/Github</p>
-        </div>
-      </div>
+          <p>DevOps (Hosting,Deploying)</p>
+          <p>GSAP</p>
+        </section>
+
+        <section className="sub_2">
+          <h3>Soft Skills</h3>
+
+          <p>
+            I'm <span title="skill">smart</span> 📚
+          </p>
+          <p>Kinda fast ⚡</p>
+          <p>
+            Strong communication skills ( I can listen without interupting)💬{" "}
+          </p>
+          <p>Persuasion (Identify what other people care about) 🧐</p>
+          <p>Empathy (I won't judge you and I will be supportive) 😊</p>
+          <p>Emotionally Intelligent ( I never act impulsively) 🧠 </p>
+          <p>Time management (I've learned to prioritize and delegate) ⏱️</p>
+          <p>Prefers burgers to pizza 🍔</p>
+        </section>
+      </section>
     </div>
   );
 };

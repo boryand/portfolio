@@ -3,7 +3,8 @@ import { Switch, Route, Link, NavLink } from "react-router-dom";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-import contact from "../pictures/contact.png";
+import contact from "../pictures/contact.gif";
+import Jello from "react-reveal/Jello";
 
 const Contacts = () => {
   const form = useRef();
@@ -30,15 +31,17 @@ const Contacts = () => {
   return (
     <div className="wrapper_contacts">
       <img src={contact} className="contact_image1" />
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form>
+      <Jello>
+        <form ref={form} onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" />
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
+        </form>
+      </Jello>
     </div>
   );
 };

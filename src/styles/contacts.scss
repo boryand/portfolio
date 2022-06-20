@@ -1,5 +1,6 @@
 @import "variables.scss";
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 .wrapper_contacts {
   display: flex;
   height: 650px;
@@ -25,48 +26,140 @@ input {
 
   border-radius: 5px;
   color: $black;
+  margin-bottom: 5%;
 }
 
 input[type="submit"] {
   margin-top: 2rem;
   cursor: pointer;
-  background: $black;
-  color: $light-color;
+  background: greenyellow;
+  color: black;
   border: none;
   width: 20%;
+  align-self: center;
+  font-size: 1.3rem;
+}
+input[type="submit"]:hover {
+  background-color: black;
+  color: greenyellow;
 }
 
 label {
   font-size: 1.3rem;
   color: $black;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
+}
+
+textarea {
+  width: 450px;
+  height: 200px;
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  border-radius: 5px;
 }
 
 .contact_image1 {
   width: 50%;
 }
+
 @mixin mobile3 {
   .wrapper_contacts {
+    display: flex;
     flex-direction: column;
   }
   .contact_image1 {
+    display: none;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+
+    textarea {
+      width: 240px;
+      border: 2px solid black;
+    }
+    input[type="submit"] {
+      margin-top: 2rem;
+
+      width: 40%;
+
+      font-size: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  @include mobile3();
+}
+
+@media only screen and (min-width: 321px) and (max-width: 376px) {
+  @include mobile3();
+  .contact_image1 {
     width: 100%;
+    display: inherit;
   }
   form {
     width: 80%;
   }
-  input[type="submit"] {
-    align-self: center;
+
+  .wrapper_contacts {
+    height: 700px;
   }
 }
-@media only screen and (max-width: 476px) {
-  @include mobile3();
-}
 
-@media only screen and (min-width: 476px) and (max-width: 676px) {
+@media only screen and (min-width: 376px) and (max-width: 476px) {
   @include mobile3();
   .contact_image1 {
+    width: 100%;
+    display: inherit;
+  }
+  form {
     width: 80%;
+    textarea {
+      width: 350px;
+    }
+  }
+
+  .wrapper_contacts {
+    height: 700px;
+  }
+}
+
+@media only screen and (min-width: 476px) and (max-width: 576px) {
+  @include mobile3();
+  .contact_image1 {
+    width: 100%;
+    display: inherit;
+  }
+  form {
+    width: 80%;
+    textarea {
+      width: 420px;
+    }
+  }
+
+  .wrapper_contacts {
+    height: 790px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 676px) {
+  @include mobile3();
+  .contact_image1 {
+    width: 100%;
+    display: inherit;
+  }
+  form {
+    width: 60%;
+    textarea {
+      width: 420px;
+    }
+  }
+
+  .wrapper_contacts {
+    height: 880px;
   }
 }
 
@@ -74,26 +167,53 @@ label {
   @include mobile3();
   .contact_image1 {
     width: 80%;
+    display: inherit;
+  }
+  form {
+    width: 60%;
+    textarea {
+      width: 420px;
+    }
+  }
+
+  .wrapper_contacts {
+    height: 900px;
   }
 }
 
-@media only screen and (min-width: 776px) and (max-width: 876px) {
-  .wrapper_contacts {
-    display: flex;
-    height: 450px;
+@media only screen and (min-width: 876px) and (max-width: 976px) {
+  @include mobile3();
+  .contact_image1 {
+    width: 70%;
+    display: inherit;
   }
-  input[type="submit"] {
-    align-self: center;
+  form {
+    width: 50%;
+    textarea {
+      width: 420px;
+    }
+  }
+
+  .wrapper_contacts {
+    height: 930px;
+  }
+}
+
+@media only screen and (min-width: 976px) and (max-width: 1076px) {
+  form {
+    textarea {
+      width: 300px;
+      border: 1px solid black;
+    }
   }
 }
 
 
-@media only screen and (min-width: 876px) and (max-width: 1076px) {
-  .wrapper_contacts {
-    display: flex;
-    height: 450px;
-  }
-  input[type="submit"] {
-    align-self: center;
+@media only screen and (min-width: 1076px) and (max-width: 1176px) {
+  form {
+    textarea {
+      width: 345px;
+      border: 1px solid black;
+    }
   }
 }
