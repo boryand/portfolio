@@ -208,11 +208,22 @@ textarea {
   }
 }
 
-
 @media only screen and (min-width: 1076px) and (max-width: 1176px) {
   form {
     textarea {
       width: 345px;
+      border: 1px solid black;
+    }
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .wrapper_contacts {
+    height: max-content;
+  }
+  form {
+    textarea {
+      width: 355px;
       border: 1px solid black;
     }
   }

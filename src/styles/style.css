@@ -817,6 +817,18 @@ textarea {
   }
 }
 
+@media only screen and (min-width: 1201px) {
+  .wrapper_contacts {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  form textarea {
+    width: 355px;
+    border: 1px solid black;
+  }
+}
+
 .container_1 {
   display: -webkit-box;
   display: -ms-flexbox;
