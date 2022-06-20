@@ -20,7 +20,10 @@ function App() {
           <Landing />
         </Route>
 
-       
+        <Route exact path="/about_me">
+          <AboutMe />
+        </Route>
+
         <Route exact path="/contacts">
           <Contacts />
         </Route>

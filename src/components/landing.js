@@ -1,10 +1,13 @@
 import gui from "../pictures/gui.png";
+import Pulse from "react-reveal/Pulse";
 
 const Landing = () => {
   return (
     <>
       <div className="container1">
-        <img alt="" className="gui" src={gui} />
+        <Pulse>
+          <img alt="" className="gui" src={gui} />
+        </Pulse>
       </div>
     </>
   );

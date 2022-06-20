@@ -1,6 +1,6 @@
 .footer_container {
-  background-color: #00cccc;
-  height: 90px;
+  background-color: black;
+  height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,15 +15,10 @@
       -ms-flex-align: center;
           align-items: center;
   line-height: 1px;
-  color: #ffe4ea;
-  font-size: 1.4rem;
+  color: greenyellow;
+  font-size: 1.2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 10px;
-  text-shadow: 1px 2px hotpink;
-}
-
-.footer_container p:hover {
-  color: #ff007b;
 }
 
 @media only screen and (max-width: 325px) {
