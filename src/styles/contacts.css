@@ -4,7 +4,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 650px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -155,9 +154,6 @@ textarea {
   form {
     width: 80%;
   }
-  .wrapper_contacts {
-    height: 700px;
-  }
 }
 
 @media only screen and (min-width: 376px) and (max-width: 476px) {
@@ -204,9 +200,6 @@ textarea {
   }
   form textarea {
     width: 350px;
-  }
-  .wrapper_contacts {
-    height: 700px;
   }
 }
 
@@ -255,9 +248,6 @@ textarea {
   form textarea {
     width: 420px;
   }
-  .wrapper_contacts {
-    height: 790px;
-  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 676px) {
@@ -304,9 +294,6 @@ textarea {
   }
   form textarea {
     width: 420px;
-  }
-  .wrapper_contacts {
-    height: 880px;
   }
 }
 
@@ -355,9 +342,6 @@ textarea {
   form textarea {
     width: 420px;
   }
-  .wrapper_contacts {
-    height: 900px;
-  }
 }
 
 @media only screen and (min-width: 876px) and (max-width: 976px) {
@@ -405,9 +389,6 @@ textarea {
   form textarea {
     width: 420px;
   }
-  .wrapper_contacts {
-    height: 930px;
-  }
 }
 
 @media only screen and (min-width: 976px) and (max-width: 1076px) {
@@ -425,9 +406,6 @@ textarea {
 }
 
 @media only screen and (min-width: 1201px) {
-  .wrapper_contacts {
-    height: 1140px;
-  }
   form textarea {
     width: 355px;
     border: 1px solid black;

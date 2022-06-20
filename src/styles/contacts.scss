@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 .wrapper_contacts {
   display: flex;
-  height: 650px;
+
   align-items: center;
   justify-content: space-evenly;
   background-color: $light-color;
@@ -103,10 +103,6 @@ textarea {
   form {
     width: 80%;
   }
-
-  .wrapper_contacts {
-    height: 700px;
-  }
 }
 
 @media only screen and (min-width: 376px) and (max-width: 476px) {
@@ -120,10 +116,6 @@ textarea {
     textarea {
       width: 350px;
     }
-  }
-
-  .wrapper_contacts {
-    height: 700px;
   }
 }
 
@@ -139,10 +131,6 @@ textarea {
       width: 420px;
     }
   }
-
-  .wrapper_contacts {
-    height: 790px;
-  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 676px) {
@@ -156,10 +144,6 @@ textarea {
     textarea {
       width: 420px;
     }
-  }
-
-  .wrapper_contacts {
-    height: 880px;
   }
 }
 
@@ -175,10 +159,6 @@ textarea {
       width: 420px;
     }
   }
-
-  .wrapper_contacts {
-    height: 900px;
-  }
 }
 
 @media only screen and (min-width: 876px) and (max-width: 976px) {
@@ -192,10 +172,6 @@ textarea {
     textarea {
       width: 420px;
     }
-  }
-
-  .wrapper_contacts {
-    height: 930px;
   }
 }
 
@@ -218,9 +194,6 @@ textarea {
 }
 
 @media only screen and (min-width: 1201px) {
-  .wrapper_contacts {
-    height: 1140px;
-  }
   form {
     textarea {
       width: 355px;
