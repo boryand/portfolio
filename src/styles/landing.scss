@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   height: 600px;
   background-color: $light-color;
 }
@@ -49,6 +49,60 @@
 
 @media only screen and (min-width: 1201px) {
   .container1 {
-    height: 1140px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 700px;
+    background-color: $light-color;
+  }
+
+  .gui {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  .container1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 800px;
+    background-color: $light-color;
+  }
+
+  .gui {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 1601px) {
+  .container1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 800px;
+    background-color: $light-color;
+  }
+
+  .gui {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 1901px) {
+  .container1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 900px;
+    background-color: $light-color;
+  }
+
+  .gui {
+    margin-top: 5%;
   }
 }
