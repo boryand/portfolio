@@ -8,14 +8,14 @@ import Jello from "react-reveal/Jello";
 
 const Contacts = () => {
   const form = useRef();
-  const SERVICE_ID = "service_tcpxycw";
+  const SERVICE_ID = "service_3c7bqax";
   const TEMPLATE_ID = "template_e2ozf23";
-  const USER_ID = "EMqzniS5UXrXpGDv-";
+  const USER_ID = "CL7BXTzM4PkE_qswv";
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID).then(
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
       (result) => {
         console.log(result.text);
         alert("Message successfully sent");
