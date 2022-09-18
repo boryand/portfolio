@@ -1,5 +1,4 @@
-import comming from "../pictures/comming.gif";
-import pika from "../pictures/pika.png";
+
 import logo from "../pictures/logo.png";
 import logo1 from "../pictures/logo1.gif";
 import rina from "../pictures/rina.jpg";
@@ -8,8 +7,7 @@ import Slide from "react-reveal/Slide";
 const Projects = () => {
   const url2 = "https://main.d395u6ndg1stgh.amplifyapp.com/";
   const url3 = "https://main.d2jd8gki5jhbu3.amplifyapp.com/";
-  const url4 =
-    "https://www.linkedin.com/posts/boryana-dimitrova94_restaurant-menu-activity-6933023908413489152-_Gj-?utm_source=linkedin_share&utm_medium=member_desktop_web";
+ 
   const url5 = "https://www.zu-bar-and-dinner.com/";
   return (
     <div className="container5">

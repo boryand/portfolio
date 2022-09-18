@@ -1,4 +1,4 @@
-import { Switch, Route, Link, NavLink } from "react-router-dom";
+
 
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
@@ -30,7 +30,7 @@ const Contacts = () => {
 
   return (
     <div className="wrapper_contacts">
-      <img src={contact} className="contact_image1" />
+      <img src={contact} alt="" className="contact_image1" />
       <Jello>
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
