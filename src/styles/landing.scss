@@ -3,7 +3,7 @@
 .container1 {
   display: flex;
   align-items: center;
-  flex-direction: column;
+
   justify-content: flex-start;
   height: 600px;
   background-color: $light-color;
@@ -14,6 +14,7 @@
 @mixin mobile {
   .container1 {
     height: 480px;
+    flex-direction: row;
   }
 
   .gui {
@@ -22,12 +23,16 @@
 }
 @media only screen and (max-width: 750px) {
   @include mobile();
+
   .gui {
     width: 100%;
   }
 }
 @media only screen and (min-width: 750px) and (max-width: 769px) {
   @include mobile();
+  .container1 {
+    justify-content: center;
+  }
   .gui {
     width: 80%;
   }
@@ -35,6 +40,9 @@
 
 @media only screen and (min-width: 769px) and (max-width: 869px) {
   @include mobile();
+  .container1 {
+    justify-content: center;
+  }
   .gui {
     width: 70%;
   }
@@ -42,6 +50,9 @@
 
 @media only screen and (min-width: 869px) and (max-width: 1024px) {
   @include mobile();
+  .container1 {
+    justify-content: center;
+  }
   .gui {
     width: 70%;
   }
