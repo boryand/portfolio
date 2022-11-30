@@ -6,7 +6,7 @@ const Landing = () => {
     <>
       <div className="container1">
         <Pulse>
-          <img alt="" className="gui" src={gui} />
+          <img alt="" className="mine" src={gui} />
         </Pulse>
       </div>
     </>

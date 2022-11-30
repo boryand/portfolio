@@ -92,115 +92,118 @@ textarea {
 
 @media only screen and (max-width: 321px) {
   @include mobile3();
-}
-
-@media only screen and (min-width: 321px) and (max-width: 376px) {
-  @include mobile3();
-  .contact_image1 {
-    width: 100%;
-    display: inherit;
-  }
-  form {
-    width: 80%;
-  }
-}
-
-@media only screen and (min-width: 376px) and (max-width: 476px) {
-  @include mobile3();
-  .contact_image1 {
-    width: 100%;
-    display: inherit;
-  }
-  form {
-    width: 80%;
-    textarea {
-      width: 350px;
-    }
-  }
-}
-
-@media only screen and (min-width: 476px) and (max-width: 576px) {
-  @include mobile3();
-  .contact_image1 {
-    width: 100%;
-    display: inherit;
-  }
-  form {
-    width: 80%;
-    textarea {
-      width: 420px;
-    }
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 676px) {
-  @include mobile3();
-  .contact_image1 {
-    width: 100%;
-    display: inherit;
-  }
-  form {
-    width: 60%;
-    textarea {
-      width: 420px;
-    }
-  }
-}
-
-@media only screen and (min-width: 676px) and (max-width: 776px) {
-  @include mobile3();
-  .contact_image1 {
-    width: 80%;
-    display: inherit;
-  }
-  form {
-    width: 60%;
-    textarea {
-      width: 420px;
-    }
-  }
-}
-
-@media only screen and (min-width: 876px) and (max-width: 976px) {
-  @include mobile3();
-  .contact_image1 {
-    width: 70%;
-    display: inherit;
-  }
-  form {
-    width: 50%;
-    textarea {
-      width: 420px;
-    }
-  }
-}
-
-@media only screen and (min-width: 976px) and (max-width: 1076px) {
-  form {
-    textarea {
-      width: 300px;
-      border: 1px solid black;
-    }
-  }
-}
-
-@media only screen and (min-width: 1076px) and (max-width: 1176px) {
-  form {
-    textarea {
-      width: 345px;
-      border: 1px solid black;
-    }
-  }
-}
-
-@media only screen and (min-width: 1201px) {
   .wrapper_contacts {
-    height: 760px;
+    height: 500px;
   }
-  form {
-    textarea {
-      width: 355px;
-      border: 1px solid black;
+
+  @media only screen and (min-width: 321px) and (max-width: 376px) {
+    @include mobile3();
+    .contact_image1 {
+      width: 100%;
+      display: inherit;
+    }
+    form {
+      width: 80%;
+    }
+  }
+
+  @media only screen and (min-width: 376px) and (max-width: 476px) {
+    @include mobile3();
+    .contact_image1 {
+      width: 100%;
+      display: inherit;
+    }
+    form {
+      width: 80%;
+      textarea {
+        width: 350px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 476px) and (max-width: 576px) {
+    @include mobile3();
+    .contact_image1 {
+      width: 100%;
+      display: inherit;
+    }
+    form {
+      width: 80%;
+      textarea {
+        width: 420px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 676px) {
+    @include mobile3();
+    .contact_image1 {
+      width: 100%;
+      display: inherit;
+    }
+    form {
+      width: 60%;
+      textarea {
+        width: 420px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 676px) and (max-width: 776px) {
+    @include mobile3();
+    .contact_image1 {
+      width: 80%;
+      display: inherit;
+    }
+    form {
+      width: 60%;
+      textarea {
+        width: 420px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 876px) and (max-width: 976px) {
+    @include mobile3();
+    .contact_image1 {
+      width: 70%;
+      display: inherit;
+    }
+    form {
+      width: 50%;
+      textarea {
+        width: 420px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 976px) and (max-width: 1076px) {
+    form {
+      textarea {
+        width: 300px;
+        border: 1px solid black;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1076px) and (max-width: 1176px) {
+    form {
+      textarea {
+        width: 345px;
+        border: 1px solid black;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1201px) {
+    .wrapper_contacts {
+      height: 760px;
+    }
+    form {
+      textarea {
+        width: 355px;
+        border: 1px solid black;
+      }
     }
   }
 }
