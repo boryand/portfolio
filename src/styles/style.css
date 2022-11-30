@@ -42,122 +42,27 @@
 .container1 {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   height: 600px;
   background-color: #f4f4f4;
 }
 
-.gui {
+.mine {
   width: 60%;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 576px) {
   .container1 {
-    height: 480px;
-    flex-direction: row;
-  }
-  .gui {
-    width: 100%;
-  }
-  .gui {
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 750px) and (max-width: 769px) {
-  .container1 {
-    height: 480px;
-    flex-direction: row;
-  }
-  .gui {
-    width: 100%;
-  }
-  .container1 {
-    justify-content: center;
-  }
-  .gui {
-    width: 80%;
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 869px) {
-  .container1 {
-    height: 480px;
-    flex-direction: row;
-  }
-  .gui {
-    width: 100%;
-  }
-  .container1 {
-    justify-content: center;
-  }
-  .gui {
-    width: 70%;
-  }
-}
-@media only screen and (min-width: 869px) and (max-width: 1024px) {
-  .container1 {
-    height: 480px;
-    flex-direction: row;
-  }
-  .gui {
-    width: 100%;
-  }
-  .container1 {
-    justify-content: center;
-  }
-  .gui {
-    width: 70%;
-  }
-}
-@media only screen and (min-width: 1201px) {
-  .container1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 700px;
     background-color: #f4f4f4;
+    height: 500px;
   }
-  .gui {
-    margin-top: 5%;
-  }
-}
-@media only screen and (min-width: 1401px) {
-  .container1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 800px;
-    background-color: #f4f4f4;
-  }
-  .gui {
-    margin-top: 5%;
+  .mine {
+    width: 100%;
   }
 }
-@media only screen and (min-width: 1601px) {
-  .container1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 800px;
-    background-color: #f4f4f4;
-  }
-  .gui {
-    margin-top: 5%;
-  }
-}
-@media only screen and (min-width: 1901px) {
-  .container1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 900px;
-    background-color: #f4f4f4;
-  }
-  .gui {
-    margin-top: 5%;
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .mine {
+    width: 100%;
   }
 }
 .container5 {
@@ -429,8 +334,11 @@ textarea {
     width: 40%;
     font-size: 1rem;
   }
+  .wrapper_contacts {
+    height: 500px;
+  }
 }
-@media only screen and (min-width: 321px) and (max-width: 376px) {
+@media only screen and (max-width: 321px) and (min-width: 321px) and (max-width: 376px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -461,7 +369,7 @@ textarea {
     width: 80%;
   }
 }
-@media only screen and (min-width: 376px) and (max-width: 476px) {
+@media only screen and (max-width: 321px) and (min-width: 376px) and (max-width: 476px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -495,7 +403,7 @@ textarea {
     width: 350px;
   }
 }
-@media only screen and (min-width: 476px) and (max-width: 576px) {
+@media only screen and (max-width: 321px) and (min-width: 476px) and (max-width: 576px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -529,7 +437,7 @@ textarea {
     width: 420px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 676px) {
+@media only screen and (max-width: 321px) and (min-width: 576px) and (max-width: 676px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -563,7 +471,7 @@ textarea {
     width: 420px;
   }
 }
-@media only screen and (min-width: 676px) and (max-width: 776px) {
+@media only screen and (max-width: 321px) and (min-width: 676px) and (max-width: 776px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -597,7 +505,7 @@ textarea {
     width: 420px;
   }
 }
-@media only screen and (min-width: 876px) and (max-width: 976px) {
+@media only screen and (max-width: 321px) and (min-width: 876px) and (max-width: 976px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -631,19 +539,19 @@ textarea {
     width: 420px;
   }
 }
-@media only screen and (min-width: 976px) and (max-width: 1076px) {
+@media only screen and (max-width: 321px) and (min-width: 976px) and (max-width: 1076px) {
   form textarea {
     width: 300px;
     border: 1px solid black;
   }
 }
-@media only screen and (min-width: 1076px) and (max-width: 1176px) {
+@media only screen and (max-width: 321px) and (min-width: 1076px) and (max-width: 1176px) {
   form textarea {
     width: 345px;
     border: 1px solid black;
   }
 }
-@media only screen and (min-width: 1201px) {
+@media only screen and (max-width: 321px) and (min-width: 1201px) {
   .wrapper_contacts {
     height: 760px;
   }

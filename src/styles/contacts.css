@@ -83,8 +83,11 @@ textarea {
     width: 40%;
     font-size: 1rem;
   }
+  .wrapper_contacts {
+    height: 500px;
+  }
 }
-@media only screen and (min-width: 321px) and (max-width: 376px) {
+@media only screen and (max-width: 321px) and (min-width: 321px) and (max-width: 376px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -115,7 +118,7 @@ textarea {
     width: 80%;
   }
 }
-@media only screen and (min-width: 376px) and (max-width: 476px) {
+@media only screen and (max-width: 321px) and (min-width: 376px) and (max-width: 476px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -149,7 +152,7 @@ textarea {
     width: 350px;
   }
 }
-@media only screen and (min-width: 476px) and (max-width: 576px) {
+@media only screen and (max-width: 321px) and (min-width: 476px) and (max-width: 576px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -183,7 +186,7 @@ textarea {
     width: 420px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 676px) {
+@media only screen and (max-width: 321px) and (min-width: 576px) and (max-width: 676px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -217,7 +220,7 @@ textarea {
     width: 420px;
   }
 }
-@media only screen and (min-width: 676px) and (max-width: 776px) {
+@media only screen and (max-width: 321px) and (min-width: 676px) and (max-width: 776px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -251,7 +254,7 @@ textarea {
     width: 420px;
   }
 }
-@media only screen and (min-width: 876px) and (max-width: 976px) {
+@media only screen and (max-width: 321px) and (min-width: 876px) and (max-width: 976px) {
   .wrapper_contacts {
     display: flex;
     flex-direction: column;
@@ -285,19 +288,19 @@ textarea {
     width: 420px;
   }
 }
-@media only screen and (min-width: 976px) and (max-width: 1076px) {
+@media only screen and (max-width: 321px) and (min-width: 976px) and (max-width: 1076px) {
   form textarea {
     width: 300px;
     border: 1px solid black;
   }
 }
-@media only screen and (min-width: 1076px) and (max-width: 1176px) {
+@media only screen and (max-width: 321px) and (min-width: 1076px) and (max-width: 1176px) {
   form textarea {
     width: 345px;
     border: 1px solid black;
   }
 }
-@media only screen and (min-width: 1201px) {
+@media only screen and (max-width: 321px) and (min-width: 1201px) {
   .wrapper_contacts {
     height: 760px;
   }
